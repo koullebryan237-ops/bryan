@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bryan Shop</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* Header */
+        header {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f0c040;
+        }
+
+        /* Produits */
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+
+        button {
+            background: black;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #444;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Bryan Shop</h1>
+    <p>Mode simple. Style assuré.</p>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Produits</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="products">
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="T-shirt">
+        <h3>T-shirt blanc</h3>
+        <p class="price">5 000 FCFA</p>
+        <button>Acheter</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Jean">
+        <h3>Jean noir</h3>
+        <p class="price">10 000 FCFA</p>
+        <button>Acheter</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Veste">
+        <h3>Veste</h3>
+        <p class="price">15 000 FCFA</p>
+        <button>Acheter</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Bryan Shop | Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
